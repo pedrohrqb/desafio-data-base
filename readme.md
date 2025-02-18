@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <h1>ETL Pipeline para Dados de Filmes
 <h3>Descrição</h3>
 <p>Este projeto desenvolve um pipeline ETL (Extract, Transform, Load) que consome dados de uma API pública sobre filmes (OMDb API), realiza as transformações necessárias e armazena as informações em um banco de dados SQL usando SQLModel.<p>
@@ -12,5 +13,8 @@
 │   └── verify_data.py
 ├── venv/
 ├── movies.db
-└── README.md
-</code></pre>
+└── README.md</code></pre>
+<h3> Requisitos </h3>
+<li>Python 3.6+</li>
+<li>Bibliotecas, <p>requests, sqlmodel</p></li>
+<li>Chave da API OMDb (pode ser obtida em <link rel="stylesheet" href="https://www.omdbapi.com/apikey.aspx" name="OMDb"> </li>
