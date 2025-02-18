@@ -25,7 +25,6 @@ def run_pipeline(movie_title):
         logger.error(f'Erro no pipeline ETL: {e}')
 
 if __name__ == "__main__":
-    movie_title = "Ironman"
+    movie_title = str(input('Digite o nome do filme: '))
     run_pipeline(movie_title)
-    
     

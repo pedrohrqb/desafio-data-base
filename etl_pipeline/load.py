@@ -55,7 +55,7 @@ def load_data(movie_data, genres):
     except Exception as e:
         logger.error(f'Erro ao carregar dados no banco de dados: {e}')
 
-# limpando o banco de dados
+# limpa todo o banco de dados
 
 def clear_db():
     engine = create_engine('sqlite:///movies.db')
