@@ -16,5 +16,10 @@
 └── README.md</code></pre>
 <h3> Requisitos </h3>
 <li>Python 3.6+</li>
-<li>Bibliotecas, <p>requests, sqlmodel</p></li>
-<li>Chave da API OMDb (pode ser obtida em <link rel="stylesheet" href="https://www.omdbapi.com/apikey.aspx" name="OMDb"> </li>
+<li>Bibliotecas: requests, sqlmodel</li>
+<li>Chave da API OMDb (pode ser obtida em <a href="https://www.omdbapi.com/apikey.aspx">OMDb)</a> </li>
+<H3>Configuração do Ambiente</H3>
+<p>1.</p> Clone o repositório:
+<code>git clone https://github.com/pedrohrqb/desafio-data-base
+      cd seu_projeto</code>
+
